@@ -5,7 +5,7 @@ console.log('Hello Node!');
 // TODO: Include packages needed for this application
 
 // TODO: Create an array of questions for user input
-const questions = () => {
+const init = () => {
     return inquirer.prompt([
         {
             type: 'input',
@@ -38,10 +38,24 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+init() 
+    .then(pageMarkdown => {
+        return writeToFile(pageMarkdown);
+    })
+    .then(writeFileResponse => {
+        console.log(writeFileResponse);
+        return copyFile();
+    })
+    .then(copyFileResponse => {
+        console.log(copyFileResponse);
+    })
+    .catch(err => {
+        console.log(err);
+    });
+
 
 // Function call to initialize app
 init();
