@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const fs = require()
 
 console.log('Hello Node!');
 
@@ -9,7 +10,7 @@ const init = () => {
     return inquirer.prompt([
         {
             type: 'input',
-            message="What is your project title?",
+            message: "What is your project title?",
             name: 'title',
             validate: (value)=> 
                 { if(value) {
@@ -18,7 +19,7 @@ const init = () => {
         },
         {
             type: 'input',
-            message="Please provide a project desctiption",
+            message: "Please provide a project desctiption",
             name: 'description',
             validate: (value)=> 
                 { if(value) {
@@ -27,14 +28,15 @@ const init = () => {
         },
         {
             type: 'input',
-            message="How does this app work?",
+            message: "How does this app work?",
             name: 'work',
             validate: (value)=> 
                 { if(value) {
                     return true} else {
                         return 'This is required!'}}
-        }
-    ]);
+        },
+    ])
+
 };
 
 // TODO: Create a function to write README file
@@ -45,20 +47,13 @@ init()
     .then(pageMarkdown => {
         return writeToFile(pageMarkdown);
     })
-    .then(writeFileResponse => {
-        console.log(writeFileResponse);
-        return copyFile();
-    })
-    .then(copyFileResponse => {
-        console.log(copyFileResponse);
-    })
     .catch(err => {
         console.log(err);
     });
 
 
 // Function call to initialize app
-init();
+
 
 
 
