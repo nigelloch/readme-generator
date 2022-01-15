@@ -11,9 +11,9 @@
 //function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-const generateMarkdown = content => {
+const createMarkdown = content => {
   return new Promise((resolve, reject) => {
-    fs.generateMarkdown('./dist/readme', fileContent, err => {
+    fs.createMarkdown('./dist/readme', fileContent, err => {
       
       if (err) {
         reject(err);

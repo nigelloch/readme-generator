@@ -1,12 +1,13 @@
 const inquirer = require("inquirer");
-const fs = require()
+// const fs = require()
+const generateMarkdown = require("./src/page-template");
 
 console.log('Hello Node!');
 
 // TODO: Include packages needed for this application
 
 // TODO: Create an array of questions for user input
-const init = () => {
+const readMe = () => {
     return inquirer.prompt([
         {
             type: 'input',
@@ -36,16 +37,15 @@ const init = () => {
                         return 'This is required!'}}
         },
     ])
-
 };
 
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-init() 
-    .then(pageMarkdown => {
-        return writeToFile(pageMarkdown);
+readMe() 
+    .then(createMarkdown => {
+        return generateMarkdown(createMarkdown);
     })
     .catch(err => {
         console.log(err);
