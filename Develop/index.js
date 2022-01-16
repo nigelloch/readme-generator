@@ -11,16 +11,6 @@ const readMe = () => {
     return inquirer.prompt([
         {
             type: 'input',
-            message: "What is your GitHub username?",
-            name: 'username',
-            default: 'nigelloch',
-            validate: (value)=> 
-                { if(value) {
-                    return true} else {
-                        return 'This is required!'}}
-        },
-        {
-            type: 'input',
             message: "What is your project title?",
             name: 'title',
             default: 'Project Title',
@@ -43,20 +33,31 @@ const readMe = () => {
             type: 'input',
             message: "If applicable, how is this application installed?",
             name: 'install',
-        },
-        {
-            type: 'input',
-            message: "Explain how this application is used?",
-            name: 'work',
-        },
-        {
-            type: 'input',
-            message: "Who gets credit for this application?",
-            name: 'credits',
+            default: 'Default installation method',
             validate: (value)=> 
-                { if(value) {
-                    return true} else {
-                        return 'This is required!'}}
+            { if(value) {
+                return true} else {
+                    return 'This is required!'}}
+        },
+        {
+            type: 'input',
+            message: "Explain how this application is used",
+            name: 'usage',
+            default: 'Default application explanation',
+            validate: (value)=> 
+            { if(value) {
+                return true} else {
+                    return 'This is required!'}}
+        },
+        {
+            type: 'input',
+            message: "What testing was done",
+            name: 'tests',
+            default: 'No testing was performed',
+            validate: (value)=> 
+            { if(value) {
+                return true} else {
+                    return 'This is required!'}}
         },
         {
             type: 'list',
@@ -70,20 +71,11 @@ const readMe = () => {
                 "MIT",
                 "Mozilla",
                 "Unlicensed",
-                "WTFPL"
+                "WTFPL",
             ]
         },
         {
-            type: 'input',
-            message: "Provide your contact information",
-            name: 'contact',
-            validate: (value)=> 
-                { if(value) {
-                    return true} else {
-                        return 'This is required!'}}
-        },
-        {
-            type: 'input',
+            type: 'list',
             message: "Select a license for this project",
             name: 'license',
             choices: [
@@ -91,15 +83,31 @@ const readMe = () => {
                 'GNU AGPLv3', 
                 'GNU GPLv3', 
                 'GNU LGPLv3', 
+                'MIT License',
                 'Apache License 2.0', 
                 'The Unlicense'
-            ],
+            ]
+        },
+        {
+            type: 'input',
+            message: "Who gets credit for this application?",
+            name: 'credits',
+            default: 'Nigel Loch',
             validate: (value)=> 
                 { if(value) {
                     return true} else {
                         return 'This is required!'}}
         },
-        
+        {
+            type: 'input',
+            message: "Questions",
+            name: 'questions',
+            default: 'What is the meaning of life?',
+            validate: (value)=> 
+                { if(value) {
+                    return true} else {
+                        return 'This is required!'}}
+        }
     ])
 };
 

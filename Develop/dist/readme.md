@@ -4,18 +4,33 @@
       ## Description
         Default description
 
+      ## Table of Contents
+        * [Installation](#installation)
+        * [Usage](#usage)
+        * [Tests](#tests)
+        * [Language(s)](#language)
+        * [License](#license)
+        * [Contributors](#contributors)
+        * [Questions](#questions)
+
       ## Installation
-        
+        Default installation method
 
-      ## Application
-        
+      ## Usage
+        Default application explanation
 
-      ## Credit
-        nivek
+      ## Tests
+        No testing was performed
 
       ## Language(s) Used
-        WTFPL
+        Apache
 
-      ## Contact Information
-      undefined
+      ## License
+        Mozilla Public License 2.0
+
+      ## Contributors
+        Nigel Loch
+
+      ## Questions
+        What is the meaning of life?
       
