@@ -132,7 +132,7 @@ readMe()
         return generateMarkdown(createMarkdown);
     })
     .then(markdown => {
-        return writeToFile('./readme.md', markdown)
+        return writeToFile('./README.md', markdown)
     })
     .catch(err => {
         console.log(err);
