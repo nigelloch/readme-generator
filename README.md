@@ -10,7 +10,6 @@
     * [Installation](#installation)
     * [Usage](#usage)
     * [Tests](#tests)
-    * [Language(s)](#language)
     * [License](#license)
     * [Contributors/Resources](# ontributors)
     * [Questions](#questions)
@@ -38,10 +37,10 @@
 
   ##  Contributors/Resources
 
-    undefined
+    Nigel Loch
 
 
   ##  Questions
-  
+
     If there are any questions about this project, please contact me here: nigelloch@gmail.com. Thank you!
   

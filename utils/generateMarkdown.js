@@ -12,7 +12,6 @@ const generateMarkdown = response => {
     * [Installation](#installation)
     * [Usage](#usage)
     * [Tests](#tests)
-    * [Language(s)](#language)
     * [License](#license)
     * [Contributors/Resources](# ontributors)
     * [Questions](#questions)
@@ -40,11 +39,11 @@ const generateMarkdown = response => {
 
   ##  Contributors/Resources
 
-    ${response.credits}
+    ${response.contributors}
 
 
   ##  Questions
-  
+
     If there are any questions about this project, please contact me here: ${response.email}. Thank you!
   `;
 }
