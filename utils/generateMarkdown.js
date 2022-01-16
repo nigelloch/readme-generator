@@ -1,44 +1,43 @@
 
-
-      const generateMarkdown = response => {
+const generateMarkdown = response => {
       return `
-      # ${response.title}
+  # ${response.title}
 
       ![Github license](http://img.shields.io/badge/license-${response.license}-blue.svg)
 
-      ## Description
-        ${response.description}
+  ## Description
+    ${response.description}
 
-      ## Table of Contents
-        * [Installation](#installation)
-        * [Usage](#usage)
-        * [Tests](#tests)
-        * [Language(s)](#language)
-        * [License](#license)
-        * [Contributors/Resources](#contributors)
-        * [Questions](#questions)
+  ## Table of Contents
+    * [Installation](# installation)
+    * [Usage](# usage)
+    * [Tests](# tests)
+    * [Language(s)](# language)
+    * [License](# license)
+    * [Contributors/Resources](# contributors)
+    * [Questions](# questions)
 
-      ## Installation
-        ${response.install}
+  ## Installation
+    ${response.install}
 
-      ## Usage
-        ${response.usage}
+  ## Usage
+    ${response.usage}
 
-      ## Tests
-        ${response.tests}
+  ## Tests
+    ${response.tests}
 
-      ## License
-        ${response.license}
+  ## License
+    ${response.license}
 
-      ## Contributors/Resources
-        ${response.credits}
+  ## Contributors/Resources
+    ${response.credits}
 
-      ## Questions
-        If there are any questions about this project, please contact me here: ${response.email}. Thank you!
-      `
-      return markdownText;
+  ## Questions
+    If there are any questions about this project, please contact me here: ${response.email}. Thank you!
+  `;
 }
 
+// export markdown to file
 module.exports = generateMarkdown;
 
 
