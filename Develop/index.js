@@ -4,11 +4,29 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 
 const fs = require("fs")
 
-// TODO: Include packages needed for this application
-
-// TODO: Create an array of questions for user input
+// begin user questions
 const readMe = () => {
     return inquirer.prompt([
+        {
+            type: 'input',
+            message: "What is your GitHub username?",
+            name: 'username',
+            default: 'nigelloch',
+            validate: (value)=> 
+                { if(value) {
+                    return true} else {
+                        return 'This is required!'}}
+        },
+        {
+            type: 'input',
+            message: "What is your email address?",
+            name: 'email',
+            default: 'nigelloch@gmail.com',
+            validate: (value)=> 
+                { if(value) {
+                    return true} else {
+                        return 'This is required!'}}
+        },
         {
             type: 'input',
             message: "What is your project title?",
@@ -75,8 +93,8 @@ const readMe = () => {
         },
         {
             type: 'input',
-            message: "Who gets credit for this application?",
-            name: 'credits',
+            message: "Provide individual contributors and resources",
+            name: 'contributors',
             default: 'Nigel Loch',
             validate: (value)=> 
                 { if(value) {
@@ -87,7 +105,7 @@ const readMe = () => {
             type: 'input',
             message: "Questions",
             name: 'questions',
-            default: 'What is the meaning of life?',
+            default: 'Please contact me here with any questions- ',
             validate: (value)=> 
                 { if(value) {
                     return true} else {
@@ -96,7 +114,7 @@ const readMe = () => {
     ])
 };
 
-// TODO: Create a function to write README file
+// take the questions/answers and create a readme
 function writeToFile(fileName, data) {
     console.log(data)
     fs.writeFile(fileName, data, err => {
@@ -108,7 +126,7 @@ function writeToFile(fileName, data) {
       });
 }
 
-// TODO: Create a function to initialize app
+// Initialize the application
 readMe() 
     .then(createMarkdown => {
         return generateMarkdown(createMarkdown);

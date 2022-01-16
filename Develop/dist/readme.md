@@ -1,6 +1,7 @@
-# Project Title
 
-      ![Github license](http://img.shields.io/badge/license-Mozilla Public License 2.0-blue.svg)
+      # Project Title
+
+      ![Github license](http://img.shields.io/badge/license-MIT License-blue.svg)
 
       ## Description
         Default description
@@ -11,7 +12,7 @@
         * [Tests](#tests)
         * [Language(s)](#language)
         * [License](#license)
-        * [Contributors](#contributors)
+        * [Contributors/Resources](#contributors)
         * [Questions](#questions)
 
       ## Installation
@@ -24,11 +25,11 @@
         No testing was performed
 
       ## License
-        Mozilla Public License 2.0
+        MIT License
 
-      ## Contributors
-        Nigel Loch
+      ## Contributors/Resources
+        undefined
 
       ## Questions
-        What is the meaning of life?
+        If there are any questions about this project, please contact me at nigelloch@gmail.com. Thank you!
       
