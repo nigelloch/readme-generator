@@ -31,5 +31,5 @@
         undefined
 
       ## Questions
-        If there are any questions about this project, please contact me at nigelloch@gmail.com. Thank you!
+        If there are any questions about this project, please contact me here: nigelloch@gmail.com. Thank you!
       
