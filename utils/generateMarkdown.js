@@ -17,22 +17,34 @@ const generateMarkdown = response => {
     * [Contributors/Resources](# ontributors)
     * [Questions](#questions)
 
+
   ##  Installation
+
     ${response.install}
 
+
   ##  Usage
+
     ${response.usage}
 
+
   ##  Tests
+
     ${response.tests}
 
+
   ##  License
+
     ${response.license}
 
+
   ##  Contributors/Resources
+
     ${response.credits}
 
+
   ##  Questions
+  
     If there are any questions about this project, please contact me here: ${response.email}. Thank you!
   `;
 }
