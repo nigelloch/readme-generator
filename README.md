@@ -16,31 +16,25 @@
 
 
   ##  Installation
-
     Default installation method
 
 
   ##  Usage
-
     Default application explanation
 
 
   ##  Tests
-
     No testing was performed
 
 
   ##  License
-
     Mozilla Public License 2.0
 
 
   ##  Contributors/Resources
-
     Nigel Loch
 
 
   ##  Questions
-
     If there are any questions about this project, please contact me here: nigelloch@gmail.com. Thank you!
   
