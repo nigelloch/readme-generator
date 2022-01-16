@@ -61,21 +61,6 @@ const readMe = () => {
         },
         {
             type: 'list',
-            message: "What language was used?",
-            name: 'language',
-            choices: [
-                "Apache",
-                "Boost",
-                "Eclipse",
-                "IBM",
-                "MIT",
-                "Mozilla",
-                "Unlicensed",
-                "WTFPL",
-            ]
-        },
-        {
-            type: 'list',
             message: "Select a license for this project",
             name: 'license',
             choices: [

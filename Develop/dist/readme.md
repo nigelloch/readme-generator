@@ -1,5 +1,6 @@
+# Project Title
 
-      # Project Title
+      ![Github license](http://img.shields.io/badge/license-Mozilla Public License 2.0-blue.svg)
 
       ## Description
         Default description
@@ -21,9 +22,6 @@
 
       ## Tests
         No testing was performed
-
-      ## Language(s) Used
-        Apache
 
       ## License
         Mozilla Public License 2.0
