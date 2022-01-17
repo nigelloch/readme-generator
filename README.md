@@ -22,7 +22,7 @@ Potential users of this application will need to clone this repository as well a
 
 ![alt text](./utils/README.png)
 
-Please see the provided video found here- 
+Please see the provided video found [here](./utils/READMEvideo.webm)
 
 ##  Tests
 
