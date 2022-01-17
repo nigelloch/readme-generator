@@ -20,7 +20,9 @@ Potential users of this application will need to clone this repository as well a
 
 ##  Usage
 
-Please see the provided video.
+![alt text](http://utils/README_GeneratorGif.gif)
+
+Please see the provided video found here- (http://utils/README_Generator.webm)
 
 ##  Tests
 
