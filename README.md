@@ -34,7 +34,9 @@ MIT
 
 ##  Contributors/Resources
 
-Nigel Loch <https://loremipsum.io/> <https://shields.io/>
+Nigel Loch 
+* Lorem Ipsum Generator <https://loremipsum.io/> 
+* License Badges <https://shields.io/>
 
 ##  Questions
 
