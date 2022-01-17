@@ -1,14 +1,18 @@
 
 const generateMarkdown = response => {
       return `
-  #  ${response.title}
+
+#  ${response.title}
 
       ![Github license](http://img.shields.io/badge/license-${response.license}-blue.svg)
 
-  ##  Description
+##  Description
+
+
+
     ${response.description}
 
-  ##  Table of Contents
+##  Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
     * [Tests](#tests)
@@ -17,28 +21,55 @@ const generateMarkdown = response => {
     * [Questions](#questions)
 
 
-  ##  Installation
+##  Installation
+
+
+
+
     ${response.install}
 
 
-  ##  Usage
+##  Usage
+
+
+
+
     ${response.usage}
 
 
-  ##  Tests
+##  Tests
+
+
+
+
     ${response.tests}
 
 
-  ##  License
+##  License
+
+
+
+
     ${response.license}
 
 
-  ##  Contributors/Resources
+##  Contributors/Resources
+
+
+
+
     ${response.contributors}
 
 
-  ##  Questions
+##  Questions
+
+
+
+
     If there are any questions about this project, please contact me here: ${response.email}. Thank you!
+
+
+
   `;
 }
 
