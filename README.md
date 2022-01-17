@@ -20,6 +20,8 @@ Potential users of this application will need to clone this repository as well a
 
 ##  Usage
 
+![alt text](./utils/README.png)
+
 Please see the provided video found here- 
 
 ##  Tests
