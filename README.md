@@ -34,7 +34,7 @@ MIT
 
 ##  Contributors/Resources
 
-Nigel Loch
+Nigel Loch <https://loremipsum.io/> <https://shields.io/>
 
 ##  Questions
 
