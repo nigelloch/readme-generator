@@ -1,71 +1,41 @@
+#  README Generator
 
-
-#  Project Title
-
-      ![Github license](http://img.shields.io/badge/license-Mozilla Public License 2.0-blue.svg)
+![badge](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ##  Description
 
-
-
-    Default description
+This application provides an automated method of creating a professional README for any type of project you may have. It simplifies the process by asking basic questions and, using Markdown, creating a clean format.
 
 ##  Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Tests](#tests)
-    * [License](#license)
-    * [Contributors/Resources](# ontributors)
-    * [Questions](#questions)
-
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [License](#license)
+* [Contributors/Resources](#contributors)
+* [Questions](#questions)
 
 ##  Installation
 
-
-
-
-    Default installation method
-
+Potential users of this application will need to clone this repository as well as install Node.js, File System, and Inquirer.
 
 ##  Usage
 
-
-
-
-    Default application explanation
-
+Please see the provided video.
 
 ##  Tests
 
-
-
-
-    No testing was performed
-
+No testing was performed
 
 ##  License
 
-
-
-
-    Mozilla Public License 2.0
-
+MIT
 
 ##  Contributors/Resources
 
-
-
-
-    Nigel Loch
-
+Nigel Loch
 
 ##  Questions
 
-
-
-
-    If there are any questions about this project, please contact me here: nigelloch@gmail.com. Thank you!
-
-
+If there are any questions about this project, please contact me at <nigelloch@gmail.com>. Thank you!
 
   

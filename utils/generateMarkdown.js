@@ -1,74 +1,43 @@
-
 const generateMarkdown = response => {
-      return `
+      return `#  ${response.title}
 
-#  ${response.title}
-
-      ![Github license](http://img.shields.io/badge/license-${response.license}-blue.svg)
+![badge](https://img.shields.io/badge/License-${response.license}-brightgreen)
 
 ##  Description
 
-
-
-    ${response.description}
+${response.description}
 
 ##  Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Tests](#tests)
-    * [License](#license)
-    * [Contributors/Resources](# ontributors)
-    * [Questions](#questions)
-
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [License](#license)
+* [Contributors/Resources](#contributors)
+* [Questions](#questions)
 
 ##  Installation
 
-
-
-
-    ${response.install}
-
+${response.install}
 
 ##  Usage
 
-
-
-
-    ${response.usage}
-
+${response.usage}
 
 ##  Tests
 
-
-
-
-    ${response.tests}
-
+${response.tests}
 
 ##  License
 
-
-
-
-    ${response.license}
-
+${response.license}
 
 ##  Contributors/Resources
 
-
-
-
-    ${response.contributors}
-
+${response.contributors}
 
 ##  Questions
 
-
-
-
-    If there are any questions about this project, please contact me here: ${response.email}. Thank you!
-
-
+If there are any questions about this project, please contact me at <${response.email}>. Thank you!
 
   `;
 }

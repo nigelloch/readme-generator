@@ -82,13 +82,11 @@ const readMe = () => {
             message: "Select a license for this project",
             name: 'license',
             choices: [
-                'Mozilla Public License 2.0',
-                'GNU AGPLv3', 
-                'GNU GPLv3', 
-                'GNU LGPLv3', 
-                'MIT License',
-                'Apache License 2.0', 
-                'The Unlicense'
+                'MPL_2.0',
+                'GPL_v3', 
+                'MIT',
+                'Apache_2.0', 
+                'Unlicense'
             ]
         },
         {
