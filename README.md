@@ -38,8 +38,8 @@ Nigel Loch
 
 ##  Questions
 
-If there are any questions about this project, please contact me at <nigelloch@gmail.com>. Thank you!
+If there are any questions about this project, please contact me at <nigelloch@gmail.com>. 
 
-To see more of my projects, please visit my GitHub Repo [here](https://github.com/nigelloch?tab=repositories)
+To see more of my projects, please visit my GitHub Repo [here](https://github.com/nigelloch?tab=repositories). Thank you! 
 
   
