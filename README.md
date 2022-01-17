@@ -40,6 +40,6 @@ Nigel Loch
 
 If there are any questions about this project, please contact me at <nigelloch@gmail.com>. Thank you!
 
-To see more of my projects, please visit my GitHub Repo at <https://github.com/nigelloch?tab=repositories>
+To see more of my projects, please visit my GitHub Repo [here] <https://github.com/nigelloch?tab=repositories>
 
   
