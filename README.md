@@ -20,7 +20,7 @@ Potential users of this application will need to clone this repository as well a
 
 ##  Usage
 
-![alt text](./utils/README_GeneratorGif.gif)
+![alt text](./utils/READMEgif.gif)
 
 Please see the provided video found here- (http://utils/README_Generator.webm)
 
