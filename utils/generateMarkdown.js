@@ -39,6 +39,8 @@ ${response.contributors}
 
 If there are any questions about this project, please contact me at <${response.email}>. Thank you!
 
+To see more of my projects, please visit my GitHub Repo at <https://github.com/${response.username}?tab=repositories>
+
   `;
 }
 

@@ -20,9 +20,7 @@ Potential users of this application will need to clone this repository as well a
 
 ##  Usage
 
-![alt text](./utils/READMEgif.gif)
-
-Please see the provided video found here- (http://utils/README_Generator.webm)
+Please see the provided video found here- 
 
 ##  Tests
 
@@ -39,5 +37,7 @@ Nigel Loch
 ##  Questions
 
 If there are any questions about this project, please contact me at <nigelloch@gmail.com>. Thank you!
+
+To see more of my projects, please visit my GitHub Repo at <https://github.com/nigelloch?tab=repositories>
 
   
