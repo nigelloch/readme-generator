@@ -1,10 +1,10 @@
-#  Budget Tracker
+#  Readme Generator
 
 ![badge](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ##  Description
 
-This application allows a user to track their expenditures as well as their deposits. This is a PWA app that allows the user to use it when not connected to the internet. Once the device reconnects to the web, the amounts entered whil offline are uploaded and maintained.
+This application uses Inquirer and Markdown to generate a professional readme for Github.
 
 ##  Table of Contents
 * [Installation](#installation)
@@ -16,17 +16,11 @@ This application allows a user to track their expenditures as well as their depo
 
 ##  Installation
 
-No installation required. The application can be accessed at: https://warm-sierra-26477.herokuapp.com/
+User will need to clone this repository and install Inquirer.
 
 ##  Usage
 
-<<<<<<< HEAD
-User will enter the name of the transaction and the amount while both online and offline.
-=======
-![alt text](./utils/README.png)
-
-Please see the provided video found [here](./utils/READMEvideo.webm)
->>>>>>> 61abadc4296479ad3ea694990b9c8331c2ad1dfe
+User will start this app by using "node index.js" and answering each of the following questions.
 
 ##  Tests
 
@@ -38,14 +32,12 @@ MIT
 
 ##  Contributors/Resources
 
-Nigel Loch 
-* Lorem Ipsum Generator <https://loremipsum.io/> 
-* License Badges <https://shields.io/>
+Nigel Loch
 
 ##  Questions
 
-If there are any questions about this project, please contact me at <nigelloch@gmail.com>. 
+If there are any questions about this project, please contact me at <nigelloch@gmail.com>. Thank you!
 
-To see more of my projects, please visit my GitHub Repo [here](https://github.com/nigelloch?tab=repositories). Thank you! 
+To see more of my projects, please visit my GitHub Repo at <https://github.com/nigelloch?tab=repositories>
 
   
