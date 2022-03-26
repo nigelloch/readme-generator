@@ -20,7 +20,13 @@ No installation required. The application can be accessed at: https://warm-sierr
 
 ##  Usage
 
+<<<<<<< HEAD
 User will enter the name of the transaction and the amount while both online and offline.
+=======
+![alt text](./utils/README.png)
+
+Please see the provided video found [here](./utils/READMEvideo.webm)
+>>>>>>> 61abadc4296479ad3ea694990b9c8331c2ad1dfe
 
 ##  Tests
 
@@ -32,12 +38,14 @@ MIT
 
 ##  Contributors/Resources
 
-Nigel Loch
+Nigel Loch 
+* Lorem Ipsum Generator <https://loremipsum.io/> 
+* License Badges <https://shields.io/>
 
 ##  Questions
 
-If there are any questions about this project, please contact me at <nigelloch@gmail.com>. Thank you!
+If there are any questions about this project, please contact me at <nigelloch@gmail.com>. 
 
-To see more of my projects, please visit my GitHub Repo at <https://github.com/nigelloch?tab=repositories>
+To see more of my projects, please visit my GitHub Repo [here](https://github.com/nigelloch?tab=repositories). Thank you! 
 
   
