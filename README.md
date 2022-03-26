@@ -1,10 +1,10 @@
-#  README Generator
+#  Budget Tracker
 
 ![badge](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ##  Description
 
-This application provides an automated method of creating a professional README for any type of project you may have. It simplifies the process by asking basic questions and, using Markdown, creating a clean format.
+This application allows a user to track their expenditures as well as their deposits. This is a PWA app that allows the user to use it when not connected to the internet. Once the device reconnects to the web, the amounts entered whil offline are uploaded and maintained.
 
 ##  Table of Contents
 * [Installation](#installation)
@@ -16,11 +16,11 @@ This application provides an automated method of creating a professional README 
 
 ##  Installation
 
-Potential users of this application will need to clone this repository as well as install Node.js, File System, and Inquirer.
+No installation required. The application can be accessed at: https://warm-sierra-26477.herokuapp.com/
 
 ##  Usage
 
-Please see the provided video found here- 
+User will enter the name of the transaction and the amount while both online and offline.
 
 ##  Tests
 
